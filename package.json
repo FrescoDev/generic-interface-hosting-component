@@ -1,0 +1,25 @@
+{
+    "name": "generic-interface-hosting-component",
+    "version": "1.0.0",
+    "description": "A reusable template for hosting simple SPAs",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "./node_modules/.bin/mocha --reporter spec"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/FrescoDev/niobi-general-web-application.git"
+    },
+    "author": "frescoDev",
+    "license": "ISC",
+    "dependencies": {
+        "express": "4.15.2"
+    },
+    "devDependencies": {
+        "chai": "^3.5.0",
+        "mocha": "^3.2.0",
+        "chai-http": "^3.0.0",
+        "request": "^2.79.0"
+    }
+}
